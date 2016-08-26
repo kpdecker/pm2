@@ -143,7 +143,7 @@
   },
   "exec_mode": {
     "type": "string",
-    "regex": "^(cluster|fork)(_mode)?$",
+    "regex": "^(cluster|fork|daemon)(_mode)?$",
     "alias": "executeCommand",
     "desc": "it should be \"cluster\"(\"cluster_mode\") or \"fork\"(\"fork_mode\") only"
   },
